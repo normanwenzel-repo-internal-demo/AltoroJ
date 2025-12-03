@@ -10,7 +10,8 @@
     "scanPullRequests": true,
     "incrementalScan": true,
     "baseBranches": [],
-    "snippetSize": 10
+    "snippetSize": 10,
+"findingSuppressions": "requireApproval"
   },
 
 
@@ -29,7 +30,7 @@
   },
   "issueSettingsSAST": {
     "minSeverityLevel": "high",
-    "issueType": "repo"
+    "issueType": "finding"
   },
   "remediateSettings": {
     "workflowRules": {
